@@ -1,0 +1,603 @@
+{
+    "metadata": {
+        "streamsync_version": "0.1.7"
+    },
+    "components": {
+        "root": {
+            "id": "root",
+            "type": "root",
+            "content": {
+                "appName": "My App"
+            },
+            "parentId": null,
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "c0f99a9e-5004-4e75-a6c6-36f17490b134": {
+            "id": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "type": "page",
+            "content": {
+                "pageMode": "compact",
+                "emptinessColor": "#874cb8",
+                "key": "Main",
+                "primaryTextColor": "#ffffff",
+                "accentColor": "#d79393"
+            },
+            "parentId": "root",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "dffcf9ea-d8ce-48ee-9914-a3d6b918cf18": {
+            "id": "dffcf9ea-d8ce-48ee-9914-a3d6b918cf18",
+            "type": "sidebar",
+            "content": {
+                "accentColor": "#f3ebff",
+                "sidebarBackgroundColor": "#581d9f",
+                "startCollapsed": "yes"
+            },
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "position": -2,
+            "handlers": {},
+            "visible": true
+        },
+        "fc900d06-973f-4fb1-80bc-d1f6cd7d3ed4": {
+            "id": "fc900d06-973f-4fb1-80bc-d1f6cd7d3ed4",
+            "type": "page",
+            "content": {
+                "key": "About Me",
+                "emptinessColor": "#000000"
+            },
+            "parentId": "root",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "e0a0fa86-293b-4456-b1f2-ac460fa03098": {
+            "id": "e0a0fa86-293b-4456-b1f2-ac460fa03098",
+            "type": "section",
+            "content": {
+                "title": "About Me",
+                "snapMode": "no"
+            },
+            "parentId": "fc900d06-973f-4fb1-80bc-d1f6cd7d3ed4",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "20fffa86-0506-4b2a-aad1-4788f22dd81e": {
+            "id": "20fffa86-0506-4b2a-aad1-4788f22dd81e",
+            "type": "separator",
+            "content": {},
+            "parentId": "e0a0fa86-293b-4456-b1f2-ac460fa03098",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "abda4675-35c2-4b12-8b8f-d368dbe3a57c": {
+            "id": "abda4675-35c2-4b12-8b8f-d368dbe3a57c",
+            "type": "horizontalstack",
+            "content": {
+                "alignment": "center"
+            },
+            "parentId": "e0a0fa86-293b-4456-b1f2-ac460fa03098",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "a7918d6d-0ad7-461f-841c-f0ee617e0b3d": {
+            "id": "a7918d6d-0ad7-461f-841c-f0ee617e0b3d",
+            "type": "text",
+            "content": {
+                "text": "Text"
+            },
+            "parentId": "abda4675-35c2-4b12-8b8f-d368dbe3a57c",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "c1cb3a03-c27d-4297-a812-afc1e41a2a74": {
+            "id": "c1cb3a03-c27d-4297-a812-afc1e41a2a74",
+            "type": "separator",
+            "content": {},
+            "parentId": "abda4675-35c2-4b12-8b8f-d368dbe3a57c",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "773b5f15-7b63-4645-9b41-49584e3cf9d1": {
+            "id": "773b5f15-7b63-4645-9b41-49584e3cf9d1",
+            "type": "image",
+            "content": {
+                "caption": "Image Caption"
+            },
+            "parentId": "abda4675-35c2-4b12-8b8f-d368dbe3a57c",
+            "position": 2,
+            "handlers": {},
+            "visible": true
+        },
+        "c80d330b-c3e4-4bec-8541-5194c4c2310e": {
+            "id": "c80d330b-c3e4-4bec-8541-5194c4c2310e",
+            "type": "separator",
+            "content": {},
+            "parentId": "e0a0fa86-293b-4456-b1f2-ac460fa03098",
+            "position": 2,
+            "handlers": {},
+            "visible": true
+        },
+        "aec3e3a2-2739-4a02-bf70-1beffe984e6c": {
+            "id": "aec3e3a2-2739-4a02-bf70-1beffe984e6c",
+            "type": "text",
+            "content": {
+                "text": "Text"
+            },
+            "parentId": "e0a0fa86-293b-4456-b1f2-ac460fa03098",
+            "position": 3,
+            "handlers": {},
+            "visible": true
+        },
+        "2413322f-09da-44ea-98cd-52a3080b5863": {
+            "id": "2413322f-09da-44ea-98cd-52a3080b5863",
+            "type": "section",
+            "content": {
+                "title": "",
+                "snapMode": "no",
+                "containerBackgroundColor": "#9b6ebf"
+            },
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "8860a379-ddd7-4410-87f0-0d39af0e78dc": {
+            "id": "8860a379-ddd7-4410-87f0-0d39af0e78dc",
+            "type": "horizontalstack",
+            "content": {
+                "alignment": "center"
+            },
+            "parentId": "2413322f-09da-44ea-98cd-52a3080b5863",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "9b1daf09-029b-4fcc-bc64-44bb231e9d9e": {
+            "id": "9b1daf09-029b-4fcc-bc64-44bb231e9d9e",
+            "type": "image",
+            "content": {
+                "caption": "",
+                "maxWidth": "125",
+                "maxHeight": "125"
+            },
+            "parentId": "8860a379-ddd7-4410-87f0-0d39af0e78dc",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "86dcf99b-a25a-4d31-bfef-248d462fe777": {
+            "id": "86dcf99b-a25a-4d31-bfef-248d462fe777",
+            "type": "metric",
+            "content": {
+                "note": "+Pass"
+            },
+            "parentId": "8860a379-ddd7-4410-87f0-0d39af0e78dc",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "032d9c5d-d150-46ff-9448-53702ea20011": {
+            "id": "032d9c5d-d150-46ff-9448-53702ea20011",
+            "type": "text",
+            "content": {
+                "text": "About me",
+                "useMarkdown": "yes",
+                "alignment": "center",
+                "primaryTextColor": "#ffffff"
+            },
+            "parentId": "dffcf9ea-d8ce-48ee-9914-a3d6b918cf18",
+            "position": 0,
+            "handlers": {
+                "click": "$goToPage_About Me"
+            },
+            "visible": true
+        },
+        "588d66e9-1958-4ea8-b43d-110899d115c4": {
+            "id": "588d66e9-1958-4ea8-b43d-110899d115c4",
+            "type": "section",
+            "content": {
+                "title": "",
+                "snapMode": "no",
+                "containerBackgroundColor": "#9b6ebf"
+            },
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "position": 2,
+            "handlers": {},
+            "visible": true
+        },
+        "26949657-1b98-4429-9621-18c7b3d59f69": {
+            "id": "26949657-1b98-4429-9621-18c7b3d59f69",
+            "type": "horizontalstack",
+            "content": {
+                "alignment": "center"
+            },
+            "parentId": "588d66e9-1958-4ea8-b43d-110899d115c4",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "fadca1ea-1e35-4cc2-9fb9-324bec428981": {
+            "id": "fadca1ea-1e35-4cc2-9fb9-324bec428981",
+            "type": "horizontalstack",
+            "content": {
+                "alignment": "center"
+            },
+            "parentId": "26949657-1b98-4429-9621-18c7b3d59f69",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "43662055-2874-4358-b114-cc260628e5e4": {
+            "id": "43662055-2874-4358-b114-cc260628e5e4",
+            "type": "separator",
+            "content": {},
+            "parentId": "588d66e9-1958-4ea8-b43d-110899d115c4",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "668e676f-c656-4ad8-84ca-553019e96f45": {
+            "id": "668e676f-c656-4ad8-84ca-553019e96f45",
+            "type": "separator",
+            "content": {},
+            "parentId": "588d66e9-1958-4ea8-b43d-110899d115c4",
+            "position": 3,
+            "handlers": {},
+            "visible": true
+        },
+        "a6d928cb-8570-47a7-b03b-ddf918824c75": {
+            "id": "a6d928cb-8570-47a7-b03b-ddf918824c75",
+            "type": "separator",
+            "content": {},
+            "parentId": "588d66e9-1958-4ea8-b43d-110899d115c4",
+            "position": 5,
+            "handlers": {},
+            "visible": true
+        },
+        "d342c0b8-84fb-446a-b767-e384408d3a90": {
+            "id": "d342c0b8-84fb-446a-b767-e384408d3a90",
+            "type": "text",
+            "content": {
+                "text": "Text"
+            },
+            "parentId": "fadca1ea-1e35-4cc2-9fb9-324bec428981",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "5fedfa98-3f1e-45f8-81bd-39b1f52fb27f": {
+            "id": "5fedfa98-3f1e-45f8-81bd-39b1f52fb27f",
+            "type": "image",
+            "content": {
+                "caption": "",
+                "maxWidth": "75",
+                "maxHeight": "75"
+            },
+            "parentId": "fadca1ea-1e35-4cc2-9fb9-324bec428981",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "f13026f3-6b5f-48f8-a9b1-7703e21b9e87": {
+            "id": "f13026f3-6b5f-48f8-a9b1-7703e21b9e87",
+            "type": "horizontalstack",
+            "content": {
+                "alignment": "center"
+            },
+            "parentId": "588d66e9-1958-4ea8-b43d-110899d115c4",
+            "position": 2,
+            "handlers": {},
+            "visible": false
+        },
+        "474b50b2-99ca-4dfd-be38-4f548ab38be2": {
+            "id": "474b50b2-99ca-4dfd-be38-4f548ab38be2",
+            "type": "text",
+            "content": {
+                "text": "Text"
+            },
+            "parentId": "f13026f3-6b5f-48f8-a9b1-7703e21b9e87",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "5cdc97f8-ad9d-4e27-9d2d-169b19ef6847": {
+            "id": "5cdc97f8-ad9d-4e27-9d2d-169b19ef6847",
+            "type": "image",
+            "content": {
+                "caption": "",
+                "maxWidth": "75",
+                "maxHeight": "75"
+            },
+            "parentId": "f13026f3-6b5f-48f8-a9b1-7703e21b9e87",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "dd7d0178-19e7-4b52-90e6-37ee8595bafc": {
+            "id": "dd7d0178-19e7-4b52-90e6-37ee8595bafc",
+            "type": "horizontalstack",
+            "content": {
+                "alignment": "center"
+            },
+            "parentId": "588d66e9-1958-4ea8-b43d-110899d115c4",
+            "position": 4,
+            "handlers": {},
+            "visible": false
+        },
+        "3775e73c-4b06-4977-bd15-4e7c21f8df3d": {
+            "id": "3775e73c-4b06-4977-bd15-4e7c21f8df3d",
+            "type": "text",
+            "content": {
+                "text": "Text"
+            },
+            "parentId": "dd7d0178-19e7-4b52-90e6-37ee8595bafc",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "fcee7030-dd46-421f-88ba-9fed356d7f05": {
+            "id": "fcee7030-dd46-421f-88ba-9fed356d7f05",
+            "type": "image",
+            "content": {
+                "caption": "",
+                "maxWidth": "75",
+                "maxHeight": "75"
+            },
+            "parentId": "dd7d0178-19e7-4b52-90e6-37ee8595bafc",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "9e126b24-4dc4-40ce-a593-4bdeb56ef03d": {
+            "id": "9e126b24-4dc4-40ce-a593-4bdeb56ef03d",
+            "type": "horizontalstack",
+            "content": {
+                "alignment": "center"
+            },
+            "parentId": "588d66e9-1958-4ea8-b43d-110899d115c4",
+            "position": 6,
+            "handlers": {},
+            "visible": false
+        },
+        "1d736b05-4f85-4b6d-a48e-0944c3345356": {
+            "id": "1d736b05-4f85-4b6d-a48e-0944c3345356",
+            "type": "text",
+            "content": {
+                "text": "Text"
+            },
+            "parentId": "9e126b24-4dc4-40ce-a593-4bdeb56ef03d",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "a457d754-ee42-4dac-879e-bd574c579915": {
+            "id": "a457d754-ee42-4dac-879e-bd574c579915",
+            "type": "image",
+            "content": {
+                "caption": "",
+                "maxWidth": "75",
+                "maxHeight": "75"
+            },
+            "parentId": "9e126b24-4dc4-40ce-a593-4bdeb56ef03d",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "0d9044be-f599-48b5-b9f3-d839fcee04b4": {
+            "id": "0d9044be-f599-48b5-b9f3-d839fcee04b4",
+            "type": "page",
+            "parentId": "root",
+            "content": {
+                "key": "contact",
+                "emptinessColor": "#000000"
+            },
+            "handlers": {},
+            "position": 2,
+            "visible": true
+        },
+        "f2fc8d60-6e1e-4029-ad83-f76707fb1048": {
+            "id": "f2fc8d60-6e1e-4029-ad83-f76707fb1048",
+            "type": "section",
+            "content": {
+                "title": "Contact Me",
+                "snapMode": "no"
+            },
+            "parentId": "0d9044be-f599-48b5-b9f3-d839fcee04b4",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "2c687a10-8466-49e0-afa7-0b2295c8f43f": {
+            "id": "2c687a10-8466-49e0-afa7-0b2295c8f43f",
+            "type": "separator",
+            "content": {},
+            "parentId": "f2fc8d60-6e1e-4029-ad83-f76707fb1048",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "8a543fbb-c655-40d5-aab8-406430504ce9": {
+            "id": "8a543fbb-c655-40d5-aab8-406430504ce9",
+            "type": "horizontalstack",
+            "content": {
+                "alignment": "center"
+            },
+            "parentId": "f2fc8d60-6e1e-4029-ad83-f76707fb1048",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "ec1eed53-6db2-40d5-ae13-bf2a92dc7bd9": {
+            "id": "ec1eed53-6db2-40d5-ae13-bf2a92dc7bd9",
+            "type": "text",
+            "content": {
+                "text": "<font size=\u201d23\u201d><b>Yasuocidal (Christian H. Bourgeois)",
+                "alignment": "center",
+                "useMarkdown": "yes"
+            },
+            "parentId": "8a543fbb-c655-40d5-aab8-406430504ce9",
+            "position": 0,
+            "handlers": {},
+            "visible": true
+        },
+        "af022896-291c-4ca0-8f78-47b1885d5dd5": {
+            "id": "af022896-291c-4ca0-8f78-47b1885d5dd5",
+            "type": "separator",
+            "content": {},
+            "parentId": "8a543fbb-c655-40d5-aab8-406430504ce9",
+            "position": 1,
+            "handlers": {},
+            "visible": true
+        },
+        "36ed3048-ef2e-459f-968b-b1343c42a542": {
+            "id": "36ed3048-ef2e-459f-968b-b1343c42a542",
+            "type": "separator",
+            "content": {},
+            "parentId": "f2fc8d60-6e1e-4029-ad83-f76707fb1048",
+            "position": 2,
+            "handlers": {},
+            "visible": true
+        },
+        "b8f48e18-d9b6-4a6b-aecb-7657e91c5b7b": {
+            "id": "b8f48e18-d9b6-4a6b-aecb-7657e91c5b7b",
+            "type": "metric",
+            "parentId": "8a543fbb-c655-40d5-aab8-406430504ce9",
+            "content": {
+                "name": "Running",
+                "metricValue": "4",
+                "note": "+Project(s)"
+            },
+            "handlers": {},
+            "position": 2,
+            "visible": true
+        },
+        "8138b8e1-9fdf-4467-abf0-62df9797ab8a": {
+            "id": "8138b8e1-9fdf-4467-abf0-62df9797ab8a",
+            "type": "text",
+            "parentId": "f2fc8d60-6e1e-4029-ad83-f76707fb1048",
+            "content": {
+                "text": "<font size=\u201d20\u201d>Contact me using the following\n\n-Email: christian@blanksoft.eu\n-Discord: Yasuocidal\n-Telegram: <link>https://t.me/christianblank\n</font>",
+                "useMarkdown": "yes"
+            },
+            "handlers": {},
+            "position": 3,
+            "visible": true
+        },
+        "c458d82a-2294-46c3-b405-be33851fc394": {
+            "id": "c458d82a-2294-46c3-b405-be33851fc394",
+            "type": "text",
+            "parentId": "dffcf9ea-d8ce-48ee-9914-a3d6b918cf18",
+            "content": {
+                "text": "Contact Me",
+                "alignment": "center"
+            },
+            "handlers": {
+                "click": "$goToPage_contact"
+            },
+            "position": 1,
+            "visible": true
+        },
+        "3f9480b5-0d25-4922-9485-5867480ebd91": {
+            "id": "3f9480b5-0d25-4922-9485-5867480ebd91",
+            "type": "heading",
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "content": {
+                "text": "Articles / Blog Posts",
+                "headingType": "h1",
+                "alignment": "center"
+            },
+            "handlers": {},
+            "position": 1,
+            "visible": true
+        },
+        "581f6e87-380f-4a76-ba9f-0f67bea58c8a": {
+            "id": "581f6e87-380f-4a76-ba9f-0f67bea58c8a",
+            "type": "page",
+            "parentId": "root",
+            "content": {
+                "key": "article1",
+                "pageMode": "wide",
+                "emptinessColor": "#000000"
+            },
+            "handlers": {},
+            "position": 3,
+            "visible": true
+        },
+        "8dd05eec-cb4f-4300-bd8d-84963ff80c90": {
+            "id": "8dd05eec-cb4f-4300-bd8d-84963ff80c90",
+            "type": "text",
+            "parentId": "581f6e87-380f-4a76-ba9f-0f67bea58c8a",
+            "content": {
+                "text": "Go Back Home",
+                "primaryTextColor": "#ffffff"
+            },
+            "handlers": {
+                "click": "$goToPage_Main"
+            },
+            "position": 0,
+            "visible": true
+        },
+        "0e52be7f-0b5e-4d03-864a-c5ff3f40208d": {
+            "id": "0e52be7f-0b5e-4d03-864a-c5ff3f40208d",
+            "type": "text",
+            "parentId": "0d9044be-f599-48b5-b9f3-d839fcee04b4",
+            "content": {
+                "text": "Go Back Home",
+                "primaryTextColor": "#ffffff"
+            },
+            "handlers": {
+                "click": "$goToPage_Main"
+            },
+            "position": 0,
+            "visible": true
+        },
+        "002b0283-fa8f-4449-ab70-5954287c224a": {
+            "id": "002b0283-fa8f-4449-ab70-5954287c224a",
+            "type": "text",
+            "parentId": "fc900d06-973f-4fb1-80bc-d1f6cd7d3ed4",
+            "content": {
+                "text": "Go Back Home",
+                "primaryTextColor": "#ffffff"
+            },
+            "handlers": {
+                "click": "$goToPage_Main"
+            },
+            "position": 0,
+            "visible": true
+        },
+        "1ecc7bb6-d62b-4d08-b8bf-33b1c5c6ef18": {
+            "id": "1ecc7bb6-d62b-4d08-b8bf-33b1c5c6ef18",
+            "type": "section",
+            "parentId": "581f6e87-380f-4a76-ba9f-0f67bea58c8a",
+            "content": {
+                "title": "Why, in my opinion, self-hosting is the Future",
+                "accentColor": "#f4dddd",
+                "snapMode": "no"
+            },
+            "handlers": {},
+            "position": 1,
+            "visible": true
+        },
+        "0f4f8876-8f39-4223-ac3f-f36eaf97e6ec": {
+            "id": "0f4f8876-8f39-4223-ac3f-f36eaf97e6ec",
+            "type": "text",
+            "parentId": "1ecc7bb6-d62b-4d08-b8bf-33b1c5c6ef18",
+            "content": {
+                "text": "<h2>What is \"self-hosting\"</h2>\nSelf-Hosting is when you take a piece of software and you \"host\" it ( having it running ) on your own ( \"self\" ) server/hardware. Giving you the power to do anything with the software and the data.\n\n\n<h2>What is required for that?</h2>\nTo be able to self-host a service there are a couple or things that are required.\n\n1) The software or service needs to be open-source or having a lincense for\n2) Hardware capable of running the software you wish to host\n3) Some technical knowledge (most have very good documentation and tutorials to help you)\n\n<h2>So why is it the Future?</h2>\nIn recent years more and more people started caring for their data, in result many companies started having actual privacy policies and \"\"caring\"\" about user data. The problem with those is that sometimes they are pretty aggressive with them, meaning that they state \"by using this service we will have access to [this] and [that] ... \" which is good but of you dont want to give them access then \n",
+                "useMarkdown": "yes"
+            },
+            "handlers": {},
+            "position": 0,
+            "visible": true
+        }
+    }
+}
